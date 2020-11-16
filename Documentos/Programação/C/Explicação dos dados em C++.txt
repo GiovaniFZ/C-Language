@@ -1,0 +1,34 @@
+int: Até agora esse tipo foi usado em todos os exemplos do blog. O tipo int é usado para representar um inteiro, e poderia fazer uma correlação com os números do conjunto dos naturais na matemática. São eles {..., -2, -1, 0, 1, 2, 3,..}.
+Como se declara?
+
+int a;
+
+
+Colocando a palavra " int " com letras minúsculas e a variável também, estamos dizendo que a variável " a " é do tipo inteiro.
+
+Se fizermos algo do tipo:
+
+a = 9.34567;
+
+
+Esse número não inteiro que foi atribuído a variável " a " será truncado, ou arredondado se preferir, para o valor 9.
+
+float e double: Bastante semelhantes mas não iguais. Grave isso: "O tipo float ocupa menor espaço na memória, enquanto double tem maior precisão". Como assim? São utilizados para representar números fracionados. O tipo float oferece 4 dígitos de precisão enquanto o double oferece 8 dígitos.
+
+Como se declara?
+
+float a;
+double b;
+
+
+Se quiséssemos atribuir o valor 4.67589345786 com menor arredondamento, para qual variável seria? A resposta é a variável " b " uma vez que ela oferece 8 dígitos de precisão. Quando usar uma ou outra? Quando não se precisa de tanta precisão, já que o tipo float ocupa menos memória. Mas cuidado, essa falta de precisão pode fazer um foguete explodir!
+
+char: Simples, char é para caracteres! Como? Veja o exemplo:
+
+char a = x;
+
+
+Declaramos que a VARIÁVEL " a " recebeu o CARACTERE " x "!
+Serve para palavras ou frases? Não, palavras e frases são strings!
+
+void: Void é vazio, ou sem tipo. Veremos isso mais a frente em métodos ou funções e classes. Por enquanto considere que void é apenas um tipo vazio.
