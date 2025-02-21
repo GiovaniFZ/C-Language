@@ -11,13 +11,13 @@ int main(){
   float mediaTotal = 0;
 
   // ler os num
-  print("Coloque a 1a nota: ")
+  printf("Coloque a 1a nota: ");
   scanf("%f", notaUm);
-  print("Coloque a 2a nota: ")
+  printf("Coloque a 2a nota: ");
   scanf("%f", notaDois);
-  print("Coloque a 3a nota: ")
+  printf("Coloque a 3a nota: ");
   scanf("%f", notaTres);
-  print("Coloque a 4a nota: ")
+  printf("Coloque a 4a nota: ");
   scanf("%f", notaQuatro);
 
   // checagem desnecessaria, somente para demonstracaooo hehe
