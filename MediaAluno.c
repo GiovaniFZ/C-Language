@@ -12,13 +12,13 @@ int main(){
 
   // ler os num
   printf("Coloque a 1a nota: ");
-  scanf("%f", notaUm);
+  scanf("%f", &notaUm);
   printf("Coloque a 2a nota: ");
-  scanf("%f", notaDois);
+  scanf("%f", &notaDois);
   printf("Coloque a 3a nota: ");
-  scanf("%f", notaTres);
+  scanf("%f", &notaTres);
   printf("Coloque a 4a nota: ");
-  scanf("%f", notaQuatro);
+  scanf("%f", &notaQuatro);
 
   // checagem desnecessaria, somente para demonstracaooo hehe
   if(notaUm > 0 && notaDois > 0 && notaTres > 0 && notaQuatro > 0){
