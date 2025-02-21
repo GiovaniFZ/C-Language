@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Based on https://github.com/lucmsilva651/etec-pc1/blob/main/MEDIAALUNO.ALG
+
 int main(){
 
   float notaUm = 0;
